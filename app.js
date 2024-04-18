@@ -32,3 +32,14 @@ i_azul.addEventListener("change",(e)=>{
     //p_azul.innerText = i_azul.value
     document.body.style.backgroundColor= `rgb(${i_rojo.value},${i_verde.value},${i_azul.value})`
 })
+
+//generar numero aleatorio
+/* 
+function generarEnteroAleatorio(min,max){
+    return Math.floor(Math.random() * (max - min)+ min)
+}
+
+for(let i=0 ; i<10; i++){
+    console.log(generarEnteroAleatorio(10,16))
+} */
+
